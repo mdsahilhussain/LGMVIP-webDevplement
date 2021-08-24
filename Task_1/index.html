@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>LGMVIPtask_1</title>
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <!-- CSS File And CDN Links -->
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<!-- Head Ends -->
+
+<!-- Body -->
+
+<body onload="loader()">
+	<div id="preloader">
+	</div>
+
+    <!-- Info on slide -->
+    <section id="top">
+        <div data-aos="fade-up">
+            <h2>Welcome to Zippy, One page promising to fill <br>
+            all your needs!</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis delectus quia hic odio illum sunt
+                aut
+                incidunt nam vel numquam molestias ratione ad cupiditate dicta dolorum, accusantium, commodi, nisi
+                blanditiis.
+            </p>
+            <div class="buttonTop">
+                <button class="slide-btn" href="#">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <!-- Info on slide End -->
+
+    <!-- Navigation Bar -->
+    <section id="nav">
+        <nav class="navbar flex">
+            <ul class="nav-list flex">
+                <li id="brand"><a href="#nav">ZIPPY</a></li>
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!-- Navigation Bar Ends -->
+
+
+    <!-- Carousel -->
+    <section class="carousel">
+        <div class="frames flex">
+
+            <!-- Carousel Control -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!-- Slides -->
+            <div class="frame first">
+                <img src="image/headerImg_1.jpg" alt="">
+            </div>
+
+            <div class="frame">
+                <img src="image/headerImg_2.jpg" alt="">
+            </div>
+
+            <div class="frame">
+                <img src="image/headerImg_3.jpg" alt="">
+            </div>
+
+            <div class="frame">
+                <img src="image/headerImg_4.jpg" alt="">
+            </div>
+
+            <!-- Automatic Control-->
+            <div class="auto-control flex">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <!-- Manual Control -->
+        <div class="manual-control flex">
+            <label for="radio1" class="manual-btn1"></label>
+            <label for="radio2" class="manual-btn2"></label>
+            <label for="radio3" class="manual-btn3"></label>
+            <label for="radio4" class="manual-btn4"></label>
+        </div>
+        <!-- Manual Control Ends -->
+    </section>
+    <!-- Carousel Ends -->
+
+    <!-- Welcome Section -->
+    <section id="welcome">
+        <h1 data-aos="zoom-out">Welcome to Zippy</h1>
+        <div class="sections flex">
+        <div>
+            <p data-aos="fade-left" class="welcomeDetail">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel amet eos quo facere, minus alias assumenda
+                fuga iure laudantium, officia enim. Quibusdam dignissimos natus nihil ratione saepe vero minus eveniet.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus ad nihil quam
+                asperiores magni iusto praesentium neque commodi vitae labore voluptate dolorem, explicabo temporibus,
+                corrupti quod saepe optio. Aut, perspiciatis itaque distinctio aspernatur architecto, omnis excepturi
+                blanditiis earum ea, illum tenetur? Architecto harum sit soluta, pariatur corrupti tenetur ea? Lorem 
+                ipsum dolor sit amet consectetur adipisicing elit. Natus quae corporis numquam molestias accusantium at 
+                praesentium et asperiores minus illo, quo voluptatum nobis similique nam error magnam quas in vel.
+            </p>
+        </div>
+        <div><img data-aos="fade-right" style="width: 30vh; margin-left: -8rem;" src="image/students.png" alt=""></div>
+        </div>
+
+        <!-- Image Card Layout -->
+        <div class="container" id="services">
+            <div class="row">
+                <div data-aos="zoom-in-up" class="image">
+                    <i class="fab fa-wordpress"></i>
+                    <div class="details">
+                        <h2>Web <span>Development</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore
+                            et dolore magna aliqua.</p>
+                            <div class="buttonTop">
+                                <button class="slide-btn" href="#">Learn More</button>
+                            </div>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-up" class="image">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <div class="details">
+                        <h2>Graphic<span>Design</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore
+                            et dolore magna aliqua.</p>
+                            <div class="buttonTop">
+                                <button class="slide-btn" href="#">Learn More</button>
+                            </div>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-up" class="image">
+                    <i class="fab fa-android"></i>
+                    <div class="details">
+                        <h2>App <span>Development</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore
+                            et dolore magna aliqua.</p>
+                            <div class="buttonTop">
+                                <button class="slide-btn" href="#">Learn More</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Image Card Layout Ends -->
+    </section>
+    <!-- Welcome Section Ends -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <!-- Project Card -->
+        <div class="project-cards">
+            <div  data-aos="zoom-in-right" class="image-p">
+                <img src="image/project_3.jpg" alt="">
+                <div class="details">
+                    <h2>Project <span>1</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt
+                    </p>
+                    <div class="more">
+                        <a href="#projects" class="learn-more">Learn <span>More</span></a>
+                    </div>
+                </div>
+            </div>
+            <div  data-aos="zoom-in-right" class="image-p">
+                <img src="image/projectImg_1.jfif" alt="">
+                <div class="details">
+                    <h2>Project <span>2</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt
+                    </p>
+                    <div class="more">
+                        <a href="#projects" class="learn-more">Learn <span>More</span></a>
+                    </div>
+                </div>
+            </div>
+            <div  data-aos="zoom-in-right" class="image-p">
+                <img src="image/projectImg_2.png" alt="">
+                <div class="details">
+                    <h2>Project <span>3</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt
+                    </p>
+                    <div class="more">
+                        <a href="#projects" class="learn-more">Learn <span>More</span></a>
+                    </div>
+                </div>
+            </div>
+            <div  data-aos="zoom-in-right" class="image-p">
+                <img src="image/projectImg_4.jpg" alt="">
+                <div class="details">
+                    <h2>Project <span>4</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt
+                    </p>
+                    <div class="more">
+                        <a href="#projects" class="learn-more">Learn <span>More</span></a>
+                    </div>
+                </div>
+            </div>
+            <div  data-aos="zoom-in-right" class="image-p">
+                <img src="image/projectImg_5.jpg" alt="">
+                <div class="details">
+                    <h2>Project <span>5</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt
+                    </p>
+                    <div class="more">
+                        <a href="#projects" class="learn-more">Learn <span>More</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h1>Pricing Table</h1>
+        <div  data-aos="fade-in"class="columns">
+            <ul class="price">
+                <li class="header">Basic</li>
+                <li class="grey">Free</li>
+                <li>2GB Storage</li>
+                <li>15 max contact</li>
+                <li>Basic Support</li>
+                <li>Contains Ads</li>
+                <li class="grey"><a href="#" class="button">Buy</a></li>
+            </ul>
+        </div>
+
+        <div data-aos="fade-in" class="columns">
+            <ul class="price">
+                <li class="header">Pro</li>
+                <li class="grey">$ 19.99 / Month</li>
+                <li>10GB Storage</li>
+                <li>25 max contact</li>
+                <li>Pro Support*</li>
+                <li>No Ads</li>
+                <li class="grey"><a href="#" class="button">Buy</a></li>
+            </ul>
+        </div>
+
+        <div data-aos="fade-in" class="columns">
+            <ul class="price">
+                <li class="header">Premium</li>
+                <li class="grey">$ 49.99 / Month</li>
+                <li>100GB Storage</li>
+                <li>Unlimeted contact</li>
+                <li>Premiunm Support*</li>
+                <li>No Ads</li>
+                <li class="grey"><a href="#" class="button">Buy</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- Pricing Section Ends -->
+
+    <!-- Video Projects Section -->
+    <section id="video-projects">
+        <h1>Video Project</h1>
+        <div class="video-column">
+            <div>
+                <video class="video" id="vid1" src="vedio/video-1.webm" loop></video>
+            </div>
+            <div style="text-align: center; padding: 30px;">App Development</div>
+        </div>
+        <div class="video-column">
+            <div>
+                <video class="video" id="vid2" src="vedio/profile-page.mp4" loop></video>
+            </div>
+            <div style="text-align: center; padding: 30px;">Web Development</div>
+        </div>
+    </section>
+    <!-- Video Projects Section Ends -->
+
+    <!-- Team Section -->
+    <section id="team">
+        <h1>Video Project</h1>
+        <!-- Image Cards -->
+        <div class="row">
+        <div data-aos="fade-right" class="team-column">
+            <div class="imageBox">
+                <div class="imageInn">
+                    <img src="image/teamMember_1.jpg" alt="">
+                </div>
+                <div class="hoverImg">
+                    <a href="#team"><img src="image/socials.png" alt=""></a>
+                </div>
+            </div>
+            <div class="details">
+                <h2>Christopher Campbell</h2>
+                <h1>Creative <span>Head</span></h1>
+            </div>
+        </div>
+        <div  data-aos="fade-right" class="team-column">
+            <div class="imageBox">
+                <div class="imageInn">
+                    <img src="image/teamMember_2.jpg" alt="">
+                </div>
+
+                <div class="hoverImg">
+                    <a href="#team"><img src="image/socials.png" alt=""></a>
+                </div>
+            </div>
+            <div class="details">
+                <h2>Ben Parker</h2>
+                <h1>Art <span>Director</span></h1>
+            </div>
+        </div>
+
+        <div data-aos="fade-right" class="team-column">
+            <div class="imageBox">
+                <div class="imageInn">
+                    <img src="image/teamMember_3.jpg" alt="">
+                </div>
+
+                <div class="hoverImg">
+                    <a href="#team"><img src="image/socials.png" alt=""></a>
+                </div>
+            </div>
+            <div class="details">
+                <h2>Michele Lando</h2>
+                <h1>Team <span>Lead</span></h1>
+            </div>
+        </div>
+
+        <div data-aos="fade-left" class="team-column">
+            <div class="imageBox">
+                <div class="imageInn">
+                    <img src="image/teamMember_4.jpg" alt="">
+                </div>
+
+                <div class="hoverImg">
+                    <a href="#team"><img src="image/socials.png" alt=""></a>
+                </div>
+            </div>
+            <div class="details">
+                <h2>Nicolas Horn</h2>
+                <h1>Senior <span>Developer</span></h1>
+            </div>
+        </div>
+
+        <div data-aos="fade-left" class="team-column">
+            <div class="imageBox">
+                <div class="imageInn">
+                    <img src="image/teamMember_5.jpg" alt="">
+                </div>
+
+                <div class="hoverImg">
+                    <a href="#team"><img src="image/socials.png" alt=""></a>
+                </div>
+            </div>
+            <div class="details">
+                <h2>Sergio De Paula</h2>
+                <h1>SEO <span>Monster</span></h1>
+            </div>
+        </div>
+
+        <div data-aos="fade-left" class="team-column">
+            <div class="imageBox">
+                <div class="imageInn">
+                    <img src="image/teamMember_6.jpg" alt="">
+                </div>
+
+                <div class="hoverImg">
+                    <a href="#team"><img src="image/socials.png" alt=""></a>
+                </div>
+            </div>
+            <div class="details">
+                <h2>Ethan Hoover</h2>
+                <h1>Senior <span>Designer</span></h1>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Life in Zippy Section -->
+    <section id="life-in-zippy">
+        <h1 style="color: #f2f2f2;" >Life in Zippy</h1>
+
+        <!-- Gallery -->
+        <div class="gallery">
+            <div class="work-life">
+                <img src="image/lifeInZippy_1.jpg">
+            </div>
+
+            <div class="work-life">
+                <img src="image/lifeInZippy_2.jpg">
+            </div>
+
+            <div class="work-life">
+                <img src="image/lifeInZippy_3.jpg">
+            </div>
+
+            <div class="work-life">
+                <img src="image/lifeInZippy_4.jpg">
+            </div>
+
+            <div class="work-life">
+                <img src="image/lifeInZippy_5.jpg">
+            </div>
+
+            <div class="work-life">
+                <img src="image/lifeInZippy_6.jpg">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="row_1">
+                <div class="column">
+                    <img class="demo cursor" src="image/lifeInZippy_1.jpg" style="width:100%" onclick="currentSlide(1)"
+                        alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image/lifeInZippy_2.jpg" style="width:100%" onclick="currentSlide(2)"
+                        alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image/lifeInZippy_3.jpg" style="width:100%" onclick="currentSlide(3)"
+                        alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image/lifeInZippy_4.jpg" style="width:100%" onclick="currentSlide(4)"
+                        alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image/lifeInZippy_5.jpg" style="width:100%" onclick="currentSlide(5)"
+                        alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image/lifeInZippy_6.jpg" style="width:100%" onclick="currentSlide(6)"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Gallery Ends -->
+
+    </section>
+
+    <!-- Newsletter Sign-Up Section-->
+    <section id="newsletter">
+        <div class="newsletter">
+            <img src="image/coverImg.jpg" alt="">
+            <div class="details">
+                <h2>Newsletter <span>Sign-Up</span></h2>
+                <p>
+                    <input class="email" type="text" name="Email-Id" id="" placeholder="E-mail Address">
+                    <button href="" class="signup-btn">Sign-Up</button>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h1>Blog</h1>
+        <div class="blog-rows">
+            <div  data-aos="zome-up-in" class="blog-columns">
+                <img src="image/blogImg_1.jpg" alt="">
+                <div class="date">
+                    <h2>Lorem ipsum, dolor sit amet</h2>
+                    <span>10th July, 2020</span>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Laudantium fugiat minima sed facere pariatur dolorem
+                    provident blanditiis hic explicabo eveniet? Lorem ipsum dolor sit amet.
+                </p>
+                <div class="buttonTop">
+                    <button class="slide-btn" href="#">Learn More</button>
+                </div>
+            </div>
+            <div class="vl" style="margin-left: 311px;"></div>
+            <div  data-aos="zome-up-in" class="blog-columns">
+                <img src="image/blogImg_2.jpg" alt="">
+                <div class="date">
+                    <h2>Lorem ipsum, dolor sit amet</h2>
+                    <span>12th August, 2020</span>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Laudantium fugiat minima sed facere pariatur dolorem
+                    provident blanditiis hic explicabo eveniet? Lorem ipsum dolor sit amet.
+                </p>
+                <div class="buttonTop">
+                    <button class="slide-btn" href="#">Learn More</button>
+                </div>
+            </div>
+            <div class="vl" style="margin-left: 622px;"></div>
+            <div data-aos="zoom-up-in" class="blog-columns">
+                <img src="image/blogImg_3.jpg" alt="">
+                <div class="date">
+                    <h2>Lorem ipsum, dolor sit amet</h2>
+                    <span>30th Feb, 2021</span>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Laudantium fugiat minima sed facere pariatur dolorem
+                    provident blanditiis hic explicabo eveniet? Lorem ipsum dolor sit amet.
+                </p>
+                <div class="buttonTop">
+                    <button class="slide-btn" href="#">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <!-- Map -->
+        <div class="contact-column">
+            <div class="map" id="googleMap"></div>
+        </div>
+        <!-- Map Ends -->
+
+        <!-- Contact Form -->
+        <div class="contact-column">
+            <form action="" class="contact-form">
+                <h1 class="form-title">Contact</h1>
+                <div class="form">
+                    <input class="form-detail" type="text" name="Name" id="name" placeholder="Name">
+                </div>
+
+                <div class="form">
+                    <input class="form-detail" type="email" name="Email" id="email" placeholder="Email Address">
+                </div>
+
+                <div class="form">
+                    <input class="form-detail" type="text" name="Subject" id="subject" placeholder="Subject">
+                </div>
+
+                <div class="form">
+                    <textarea class="msg" name="Message" id="message" placeholder="Your Message Here"></textarea>
+                </div>
+
+                <div class="form">
+                    <button class="send-btn">SEND</button>
+                </div>
+            </form>
+        </div>
+        <!-- Contact Form Ends -->
+
+    </section>
+    <!-- Contact Section Ends -->
+
+    <!-- Footer -->
+    <section class="footer">
+
+        <!-- Address Column -->
+        <div class="footer-column">
+            <div class="footer-detail">
+                Office Address
+            </div>
+            <address>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Ea, fuga id eveniet sunt doloribus nostrum
+            </address>
+        </div>
+        <!-- Address Column Ends -->
+
+
+        <!-- Follow Us Column -->
+        <div class="footer-column">
+            <div class="footer-detail" style="text-align: center;">
+                Follow Us
+            </div>
+            <div style="height: 69.6px;padding: 20px;">
+                <div class="follow-column">
+                    <a href="https://github.com/mdsahilhussain" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </div>
+                <div class="follow-column">
+                    <a href="https://www.behance.net/msahilhussain" target="_blank">
+                        <i class="fab fa-behance-square"></i>
+                    </a>
+                </div>
+                <div class="follow-column">
+                    <a href="www.linkedin.com/in/md-sahil-hussain-75b5181a6" target="_blank">
+                        <i class="fab fa-linkedin"></i>  
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us Column -->
+        <div class="footer-column">
+            <div class="footer-detail textCenter">
+                Contact Us
+            </div>
+            <div style="text-align: center;">
+                <a href="mailto:xyz@gmail.com" class="contactStyle">
+                    contact@zippylgmvip.com
+                </a>
+            </div>
+            <div style="text-align: center;">
+                <a href="tel: 1234567890" class="contactStyle">
+                    Phone: +12 XXXXx-XXXXX
+                </a>
+            </div>
+
+        </div>
+        <!-- Contact Us Column Ends -->
+    </section>
+
+    <!-- preloader function -->
+    <script>
+        const preloader = document.getElementById('preloader');
+        function loader () {
+            // body... 
+            preloader.style.display = 'none';
+        }
+    </script>
+    <!-- JavaScript File -->
+    <script src="javaScript/mainApp.js"></script>
+    <!-- Google Map API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxo801nwBotwJktiUa5O3LXZi4AZICL88&callback=myMap"></script>
+    <!-- Scrolling animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>

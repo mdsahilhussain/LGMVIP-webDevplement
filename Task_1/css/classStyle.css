@@ -1,0 +1,25 @@
+.buttonTop {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.flex {
+  display: flex;
+}
+
+.welcomeDetail {
+  text-align: left;
+  width: 80%;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.contactStyle{
+   text-decoration: none;
+    color: #F2F2F2;
+     font-weight: 500; 
+}
+
+.textCenter{
+   text-align: center;
+}
