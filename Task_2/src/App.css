@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+body {
+  background: #03001e;
+  background: -webkit-linear-gradient(
+    to left,
+    #ec38bc,
+    #7303c0,
+    #03001e
+  ); 
+  background: linear-gradient(
+    to left,
+    #ec38bc,
+    #7303c0,
+    #03001e
+  );
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #03001e;
+  margin-top: 20%;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wholecontainer {
+  background-size: cover;
+  text-align: -webkit-center;
+}
+
+.container {
+  height: auto;
+  padding-bottom: 399px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  height: 50px;
+  background-color: #f2f2f2;
+  padding: 15px;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.topnav img {
+  width: 192px;
+  float: left;
+  vertical-align: middle;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .btn {
+  display: none;
+  float: right;
+  display: block;
+  color: #ec38bc;
+  text-align: center;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s;
+  border-radius: 50px;
+  background: rgba(3, 0, 30, 0.31);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border: 1px solid rgba(3, 0, 30, 0.7);
+}
+
+.topnav .btn:hover {
+  color: #03001e;
+  background-color: #ec38bc;
+}
+
+/* When the screen is less than 600 pixels wide */
+@media screen and (max-width: 600px) {
+  .topnav a.btn {
+    color: #f2f2f2;
+    float: right;
+    display: block;
+  }
+
+  .container {
+    height: 205vh;
+    text-align: -webkit-center;
+  }
+}
+
+.first_line {
+  top: 70%;
+  width: 50%;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20% auto 0;
+  color: #f2f2f2;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
